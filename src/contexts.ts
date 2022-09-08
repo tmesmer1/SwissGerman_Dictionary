@@ -47,6 +47,7 @@ export type IClassicCurveDefinition = {
 };
 
 export type ICurveDefinition = IiOS9CurveDefinition | IClassicCurveDefinition;
+export type ICurveDefinition =! IiOS9CurveDefinition | IClassicCurveDefinition;
 
 export interface ICurve {
   draw: () => void;
